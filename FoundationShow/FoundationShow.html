@@ -1,0 +1,551 @@
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.fixedbg {
+ background-image: url("images/bg.png");
+ min-height: 500px;
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+/* Header/logo Title */
+.header {
+  min-width: 100%;
+  min-height: 95%;
+  padding-top: 20%;
+  text-align: center;
+  background: #7c807f;
+  color: white;
+}
+.about {
+  min-height:100%;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #00aedd;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 5;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #017c9e;
+  color: white;
+}
+
+/* Column container */
+
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.alphabet {
+  min-height: 50%;
+}
+.container .btna {
+  position: absolute;
+  top: 11%;
+  left: 25%;
+  background-color: rgba(85, 85, 85, 0);
+  font-size: 16px;
+  height:14%;
+  width: 16.4%;
+  border: none;
+}
+.container .btnb {
+  position: absolute;
+  top: 9%;
+  left: 46%;
+  background-color: rgba(85, 85, 85, 0);;
+  font-size: 16px;
+  height:14%;
+  width: 17%;
+  border: none;
+}
+.container .btnc {
+  position: absolute;
+  top: 7%;
+  left: 67%;
+  background-color: rgba(85, 85, 85, 0);;
+  font-size: 16px;
+  height:18%;
+  width: 14%;
+  border: none;
+}
+.container .btnd {
+  position: absolute;
+  top: 26%;
+  left: 16.8%;
+  background-color: rgba(85, 85, 85, 0);;
+  font-size: 16px;
+  height:12%;
+  width: 17%;
+  border: none;
+}
+.container .btne {
+  position: absolute;
+  top: 25.5%;
+  left: 38%;
+  background-color: rgba(85, 85, 85, 0);;
+  font-size: 16px;
+  height:14%;
+  width: 25%;
+  border: none;
+}
+.container .btnf {
+  position: absolute;
+  top: 25.5%;
+  left:64%;
+  background-color: rgba(85, 85, 85, 0);;
+  font-size: 16px;
+  height:16%;
+  width: 15%;
+  border: none;
+}
+.container .btng {
+  position: absolute;
+  top: 40%;
+  left:11%;
+  background-color: rgba(85, 85, 85, 0);;
+  font-size: 16px;
+  height:23%;
+  width: 17%;
+  border: none;
+}
+.container .btnh {
+  position: absolute;
+  top: 40%;
+  left:32%;
+  background-color: rgba(85, 85, 85, 0);;
+  font-size: 16px;
+  height:17%;
+  width: 13%;
+  border: none;
+}
+.container .btni {
+  position: absolute;
+  top: 40%;
+  left:47%;
+  background-color: rgba(85, 85, 85, 0);;
+  font-size: 16px;
+  height:13%;
+  width: 7%;
+  border: none;
+}
+.container .btnj {
+  position: absolute;
+  top: 44%;
+  left: 55%;
+  background-color: rgba(85, 85, 85, 0);;
+  font-size: 16px;
+  height:14%;
+  width: 13%;
+  border: none;
+}
+.container .btnk {
+  position: absolute;
+  top: 42%;
+  left: 71%;
+  background-color: rgba(85, 85, 85, 0);;
+  font-size: 16px;
+  height:14%;
+  width: 18%;
+  border: none;
+}
+.container .btnl {
+  position: absolute;
+  top: 63.5%;
+  left: 26%;
+  background-color: rgba(85, 85, 85, 0);;
+  font-size: 16px;
+  height:12.5%;
+  width: 11%;
+  border: none;
+}
+.container .btnm {
+  position: absolute;
+  top: 61%;
+  left: 37.5%;
+  background-color: rgba(85, 85, 85, 0);;
+  font-size: 16px;
+  height:10%;
+  width: 14%;
+  border: none;
+}
+.container .btnn {
+  position: absolute;
+  top: 60%;
+  left: 55%;
+  background-color: rgba(85, 85, 85, 0);;
+  font-size: 16px;
+  height:22%;
+  width: 18%;
+  border: none;
+}
+.container .btnp {
+  position: absolute;
+  top: 58%;
+  left: 74%;
+  background-color: rgba(85, 85, 85, 0);;
+  font-size: 16px;
+  height:14.5%;
+  width:10%;
+  border: none;
+}
+.container .btnr {
+  position: absolute;
+  top: 78%;
+  left: 16%;
+  background-color: rgba(85, 85, 85, 0);;
+  font-size: 16px;
+  height:11%;
+  width:16%;
+  border: none;
+}
+.container .btnt {
+  position: absolute;
+  top: 76.5%;
+  left: 34%;
+  background-color: rgba(85, 85, 85, 0);;
+  font-size: 16px;
+  height:14%;
+  width:19%;
+  border: none;
+}
+.container .btnw {
+  position: absolute;
+  top: 84%;
+  left: 56%;
+  background-color: rgba(85, 85, 85, 0);;
+  font-size: 16px;
+  height:8%;
+  width:14%;
+  border: none;
+}
+.container .btny {
+  position: absolute;
+  top: 76%;
+  left: 74%;
+  background-color: rgba(85, 85, 85, 0);;
+  font-size: 16px;
+  height:14%;
+  width:16%;
+  border: none;
+}
+.main {   
+    padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<div class="fixedbg">
+<div class="header">
+  <h1>insert homepage image</h1>
+</div>
+
+<div class="navbar">
+  <a href="#" class="active">Back to Top</a>
+</div>
+
+
+  <div class="about">
+    
+  </div>
+  <div class="container">
+    <div class="alphabet">
+    <img src="images/alphabet.png" alt="alphabets" style="width:100%;">
+    <a href="#a"> <button class="btna"></button></a>
+    <a href="#b"> <button class="btnb"></button></a>
+    <a href="#c"> <button class="btnc"></button></a>
+    <a href="#d"> <button class="btnd"></button></a>
+    <a href="#e"> <button class="btne"></button></a>
+    <a href="#f"> <button class="btnf"></button></a>
+    <a href="#g"> <button class="btng"></button></a>
+    <a href="#h"> <button class="btnh"></button></a>
+    <a href="#i"> <button class="btni"></button></a>
+    <a href="#j"> <button class="btnj"></button></a>
+    <a href="#k"> <button class="btnk"></button></a>
+    <a href="#l"> <button class="btnl"></button></a>
+    <a href="#m"> <button class="btnm"></button></a>
+    <a href="#n"> <button class="btnn"></button></a>
+    <a href="#p"> <button class="btnp"></button></a>
+    <a href="#r"> <button class="btnr"></button></a>
+    <a href="#t"> <button class="btnt"></button></a>
+    <a href="#w"> <button class="btnw"></button></a>
+    <a href="#y"> <button class="btny"></button></a>
+  </div> 
+</div>
+<div id ="a"></div>
+  <div class="main">
+    <img src="images/alphabetletters/a.png" alt="a" style="width:20%">
+    <h1>Ray Armijo</h1>
+    <img src="images/asset collection/A/armijoray.png" style="width:100%">
+    <p>project title</p>
+    <div id="b"></div>
+    <p>dimensions: xxxx</p>
+    <br>
+    <img src="images/alphabetletters/b.png" alt="b" style="width:20%">
+    <h1>Olivia Baker</h1>
+    <img src="images/asset collection/B/bakerolivia.png" style="width:100%">
+    <p>project title</p>
+    <p>dimensions: xxxx</p>
+    <h1>Qinn Brophy</h1>
+    <img src="images/asset collection/B/brophyqinn.png" style="width:100%">
+    <p>Monster Sticker</p>
+    <p>dimensions: xxxx</p>
+    <h1>Izzy Brown</h1>
+    <img src="images/asset collection/B/brownizzy.png" style="width:100%">
+    <p>project title</p>
+    <p>dimensions: xxxx</p>
+    <h1>Cameron Burden</h1>
+    <img src="images/asset collection/B/burdencameron.png" style="width:100%">
+    <p>project title</p>
+    <p>dimensions: xxxx</p>
+    <h1>Nico Byrne</h1>
+    <img src="images/asset collection/B/byrnenico.png" style="width:100%">
+    <p>project title</p>
+    <div id="c"></div>
+    <p>dimensions: xxxx</p>
+    <br>
+    <img src="images/alphabetletters/c.png" alt="c" style="width:20%">
+    <h2>Caro Cuevas</h2>
+    <video width="100%" controls><source src="images/asset collection/C/cuevascaro.mp4"></video>
+    <p>project title</p>
+    <p>dimensions: xxxx</p>
+    <h2>Alexander Cummings</h2>
+    <img src="images/asset collection/C/cummingsalexander.png" style="width:80%">
+    <p>project title</p>
+    <div id="d"></div>
+    <p>dimensions: xxxx</p>
+    <br>
+    <img src="images/alphabetletters/d.png" alt="d" style="width:20%">
+    <h2>Ryan Dunny</h2>
+    <img src="images/asset collection/D/dunnryan.png" style="width:100%">
+    <p>project title</p>
+    <div id="e"></div>
+    <p>dimensions: xxxx</p>
+    <br>
+    <img src="images/alphabetletters/e.png" alt="e" style="width:40%">
+    <h2>E name 1</h2>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>project title</p>
+    <div id="f"></div>
+    <p>dimensions: xxxx</p>
+    <br>
+    <img src="images/alphabetletters/f.png" alt="F" style="width:20%">
+    <h2>Anna Faro</h2>
+    <img src="images/asset collection/F/faroanna.png" style="width:100%">
+    <p>project title</p>
+    <div id="g"></div>
+    <p>dimensions: xxxx</p>
+    <br>
+    <img src="images/alphabetletters/g.png" alt="g" style="width:20%">
+    <h2>G name 1</h2>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>project title</p>
+    <div id="h"></div>
+    <p>dimensions: xxxx</p>
+    <br>
+    <img src="images/alphabetletters/h.png" alt="h" style="width:20%">
+    <h2>Abby Horne</h2>
+    <img src="images/asset collection/H/horneabby.png" style="width:100%">
+    <p>project title</p>
+    <div id="i"></div>
+    <p>dimensions: xxxx</p>
+    <br>
+    <img src="images/alphabetletters/i.png" alt="i" style="width:20%">
+    <h2>Isabelle Indermitte</h2>
+    <img src="images/asset collection/I/indermitteisabelle.png" style="width:100%">
+    <p>project title</p>
+    <div id="j"></div>
+    <p>dimensions: xxxx</p>
+    <br>
+    <img src="images/alphabetletters/j.png" alt="j" style="width:30%">
+    <h2>Hunter Johnson</h2>
+    <img src="images/asset collection/J/johnsonhunter.png" style="width:100%">
+    <p>project title</p>
+    <div id="k"></div>
+    <p>dimensions: xxxx</p>
+    <br>
+    <img src="images/alphabetletters/k.png" alt="k" style="width:30%">
+    <h2>Sadie Keefe</h2>
+    <img src="images/asset collection/K/keefesadie.png" style="width:100%">
+    <p>project title</p>
+    <p>dimensions: xxxx</p>
+    <h2>Monika Kristjansdottir</h2>
+    <img src="images/asset collection/K/kristjansdottirmonika.png" style="width:100%">
+    <p>Laufás</p>
+    <img src="images/alphabetletters/l.png" alt="l" style="width:25%">
+    <p>dimensions: xxxx</p>
+    <br>
+    <h1>Haley Labonet</h1>
+    <img src="images/asset collection/L/labonethaley.png" alt="Labont Haley" style="width:100%">
+    <p>project title</p>
+    <p>dimensions: xxxx</p>
+    <h1>Lexi Lopez</h1>
+    <img src="images/asset collection/L/lopezlexi.png" alt="Lopez Lexi" style="width:100%">
+    <p>project title</p>
+    <p>dimensions: xxxx</p>
+    <h1>Ruby Louro</h1>
+    <img src="images/asset collection/L/louroruby.png" alt="Louro Ruby" style="width:100%">
+    <p>project title</p>
+    <p>dimensions: xxxx</p>
+    <h1>Caleb Lynch</h1>
+    <img src="images/asset collection/L/lynchcaleb.png" alt="lynch Caleb" style="width:100%">
+    <p>project title</p>
+    <div id="m"></div>
+    <p>dimensions: xxxx</p>
+    <br>
+    <img src="images/alphabetletters/m.png" alt="m" style="width:20%">
+    <h1>Lynn McGuirebettes</h1>
+    <img src="images/asset collection/M/mcguirebetteslynn.png" alt="mcguirebettes lynn" style="width:100%">
+    <p>project title</p>
+    <p>dimensions: xxxx</p>
+    <h1>Monet McLeishvance</h1>
+    <img src="images/asset collection/M/mcleishvancemonet.png" alt="mcleishvance monet" style="width:100%">
+    <p>project title</p>
+    <p>dimensions: xxxx</p>
+    <h1>Siena Moniz</h1>
+    <img src="images/asset collection/M/monizsiena.png" alt="moniz siena" style="width:100%">
+    <p>project title</p>
+    <p>dimensions: xxxx</p>
+    <h1>Kuma Mono</h1>
+    <video width="100%" controls><source src="images/asset collection/M/monokuma.mp4"></video>
+    <p>project title</p>
+    <div id="n"></div>
+    <p>dimensions: xxxx</p>
+    <br>
+    <img src="images/alphabetletters/n.png" alt="n" style="width:25%">
+    <h1>Marissa Nocon</h1>
+    <video width="100%" controls><source src="images/asset collection/N/noconmarissa.mp4"></video>
+    <p>project title</p>
+    <div id="p"></div>
+    <p>dimensions: xxxx</p>
+    <br>
+    <img src="images/alphabetletters/p.png" alt="p" style="width:20%">
+    <h1>Addison Page</h1>
+    <img src="images/asset collection/P/pageaddison.png" alt="Page Addison" style="width:100%">
+    <p>project title</p>
+    <p>dimensions: xxxx</p>
+    <h1>Hannah Parker</h1>
+    <img src="images/asset collection/P/parkerhannah.png" alt="Parker Hannah" style="width:100%">
+    <p>project title</p>
+    <p>dimensions: xxxx</p>
+    <h1>Elizabeth Prevoste</h1>
+    <img src="images/asset collection/P/prevostelizabeth.png" alt="Prevoste Elizabeeth" style="width:100%">
+    <p>project title</p>
+    <div id="r"></div>
+    <p>dimensions: xxxx</p>
+    <br>
+    <img src="images/alphabetletters/r.png" alt="r" style="width:30%">
+    <h1>Robbie Raposa</h1>
+    <img src="images/asset collection/R/raposarobbie.png" alt="Raposa Robbie" style="width:100%">
+    <p>project title</p>
+    <p>dimensions: xxxx</p>
+    <h1>Mason Ricci</h1>
+    <video width="100%" controls><source src="images/asset collection/R/riccimason.mp4"></video>
+    <p>project title</p>
+    <div id="t"></div>
+    <p>dimensions: xxxx</p>
+    <br> 
+    <img src="images/alphabetletters/t.png" alt="t" style="width:35%">
+    <h1>T name 1</h1>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>project title</p>
+    <div id="w"></div>
+    <p>dimensions: xxxx</p>
+    <br>
+    <img src="images/alphabetletters/w.png" alt="w" style="width:30%">
+    <h1>W name 1</h1>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>project title</p>
+    <div id="y"></div>
+    <p>dimensions: xxxx <br>  </p>
+    <br>
+    <img src="images/alphabetletters/y.png" alt="y" style="width:25%">
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>project title</p>
+    <p>dimensions: xxxx <br>  </p>
+    
+  </div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+</div>
+</body>
+</html>
